@@ -1,0 +1,11 @@
+Package: quantileVaR
+Type: Package
+Title: Quantile regression for estimating value at risk and backtesting.
+Version: 1.0
+Date: 2013-08-14
+Author: Steinar Veka
+Maintainer: Steinar Veka <steinar.veka@gmail.com>
+Description: Estimating CAViaR models (Engle & Manganelli, 2004) and similar models. Create VaR forecasts. Backtest VaR forecasts (independent of model used for creating the forecasts).
+License: GPL-2 | GPL-3
+Depends: Rcpp (>= 0.10.3), RcppArmadillo (>= 0.3.800.1)
+LinkingTo: Rcpp, RcppArmadillo
